@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Build out the project to the designs provided
+- Create a static page where it shows a user and some information about him. Using the design image as a reference
 
 ### Screenshot
 
