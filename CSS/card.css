@@ -22,8 +22,8 @@ body {
 
     background-color: var(--Dark_cyan);
     background-image: 
-        url("../images/bg-pattern-top.svg"),
-        url("../images/bg-pattern-bottom.svg");
+        url(https://raw.githubusercontent.com/MarlonPassos-git/Profile-card-component/787eda2eb006377c7ce40ce4f1a9cf42fe19fe4f/images/bg-pattern-top.svg),
+        url(https://raw.githubusercontent.com/MarlonPassos-git/Profile-card-component/787eda2eb006377c7ce40ce4f1a9cf42fe19fe4f/images/bg-pattern-bottom.svg);
     background-position: 
         bottom 50vh  right 50vw,
         top 50vh  left 50vw;     
@@ -43,7 +43,7 @@ body {
     width: 300px;
     height: 400px;
 
-    background-image: url("../images/bg-pattern-card.svg");
+    background-image: url(https://raw.githubusercontent.com/MarlonPassos-git/Profile-card-component/787eda2eb006377c7ce40ce4f1a9cf42fe19fe4f/images/bg-pattern-card.svg);
     background-color: white;
     background-repeat: no-repeat;
     border-radius: 15px ;
