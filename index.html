@@ -6,35 +6,35 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="/CSS/card.css" rel="styleshet">
+  <link href="CSS/card.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
  
 </head>
 <body>
 
   <div class="cardProfile">
-    <img src="images/image-victor.jpg" alt="foto usuario">
-    <h1 class="cardProfile__name">Victor Crest</h1>
-    <div class="cardProfile__age">26</div>
-    <address class="cardProfile__city">London</address>
+    <section class="cardProfile__user">
+      <img class="cardProfile__user--photo" src="images/image-victor.jpg" alt="foto usuario">
+      <p class=""><b class="cardProfile__user--name">Victor Crest </b>26</p>
+      
+      <address class="cardProfile__user--city">London</address>
+    </section>
     <hr>
-    <section class="cardProfile__socialData">
-      <ul>
+      <ul class="cardProfile__socialData">
         <li>
           <abbr class="cardProfile__socialData--number" title="80000">80K</abbr>
-          <p class="cardProfile__socialData--attribute"></p>
+          <p class="cardProfile__socialData--attribute">Followers</p>
         </li>
         <li>
           <abbr class="cardProfile__socialData--number" title="803000">803K</abbr>
-          <p class="cardProfile__socialData--attribute"></p>
+          <p class="cardProfile__socialData--attribute">Likes</p>
         </li>
         <li>
           <abbr class="cardProfile__socialData--number" title="1400">1.4K</abbr>
-          <p class="cardProfile__socialData--attribute"></p>
+          <p class="cardProfile__socialData--attribute">Photos</p>
         </li>
       </ul>
       
-    </section>
   </div>
 
 
